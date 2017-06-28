@@ -1,0 +1,19 @@
+{
+  "name": "alphachat",
+  "version": "0.0.1",
+  "description": "Gateway to the conversational economy",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xio",
+  "license": "MIT",
+  "dependencies": {
+     "async": "2.1.4",
+     "dotenv": "^2.0.0",     
+     "level": "1.7.0",
+     "mongoose": "^4.4.6",
+     "uuid": "^3.0.0",
+     "request": "^2.69.0"
+  }
+}
