@@ -1,5 +1,5 @@
 "express": "4.14.0",
-"body-parser": "*",
+
  "cors": "^2.7.1",
 
  "serve-favicon": "^2.3.0",
