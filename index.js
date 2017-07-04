@@ -31,6 +31,8 @@ const END_SESSION =     'End Session';
 const dbURI =  process.env.MONGO_URI;
 require('./db/mongoose')(dbURI);
 
+require('./db/neo4j')();
+
 // private
 let n = 0;
 
@@ -135,6 +137,14 @@ AlphaChat.prototype.processMessage = function(cb) {
     })
 
     // stages of transformation
+    function Stage_050_Map(obj) {
+      return new Promise((resolve, reject) => {
+        formatUI(obj, function(err, response) {
+          if(err) return reject(err)
+          resolve(response)
+        })
+      })
+    }
 
     function Stage_100_Map(obj) {
       return new Promise((resolve, reject) => {

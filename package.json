@@ -9,13 +9,14 @@
   "author": "xio",
   "license": "MIT",
   "dependencies": {
-     "async": "2.1.4",
-     "body-parser": "*",
-     "dotenv": "^2.0.0",
-     "level": "1.7.0",
-     "mongoose": "^4.4.6",
-     "uuid": "^3.0.0",
-     "request": "^2.69.0"
+    "async": "2.1.4",
+    "body-parser": "*",
+    "dotenv": "^2.0.0",
+    "level": "1.7.0",
+    "mongoose": "^4.4.6",
+    "neo4j-driver": "^1.3.0",
+    "request": "^2.69.0",
+    "uuid": "^3.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.23.0",
@@ -27,6 +28,5 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-react-hmre": "^1.1.0",
     "babel-preset-stage-0": "^6.5.0"
-
   }
 }

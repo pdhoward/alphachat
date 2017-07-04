@@ -1,0 +1,46 @@
+
+
+aws
+https://aws.amazon.com/marketplace/pp/B071P26C9D
+
+
+https://neo4j.com/blog/add-users-node-js-react-js-neo4j-movie-app/
+
+https://github.com/neo4j-examples/neo4j-movies-template
+
+
+recommended driver:
+
+https://www.npmjs.com/package/neo4j-driver
+9k
+
+
+http://127.0.0.1:7474/browser/
+
+use neo4j
+pswd nashv1ll
+
+
+-------------------
+
+hello world
+
+const driver = neo4j.driver(uri, neo4j.auth.basic(user, password));
+const session = driver.session();
+
+const resultPromise = session.writeTransaction(tx => tx.run(
+  'CREATE (a:Greeting) SET a.message = $message RETURN a.message + ", from node " + id(a)',
+  {message: 'hello, world'}));
+
+resultPromise.then(result => {
+  session.close();
+
+  const singleRecord = result.records[0];
+  const greeting = singleRecord.get(0);
+
+  console.log(greeting);
+
+  // on application exit:
+  driver.close();
+});
+

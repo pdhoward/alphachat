@@ -2,6 +2,7 @@
 
 import Dialogue                   from '../models/Dialogue';
 import dialogues                  from './dialogues';
+
 const limit = 1;
 
 function isLive () {
