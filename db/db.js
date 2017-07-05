@@ -1,26 +1,31 @@
-
 'use strict';
+
 /////////////////////////////////////////////////////////////////////////
-/////////////////// configure handlers for each interface  /////////////
-//////////////////   import sdk based on agent handler   //////////////
+////////////    configure memory db to track dialogue             //////
+////////////  entails tracking a chain of messages with context  //////
 //////////////////////////////////////////////////////////////////////
 
-import level          from 'level';
+import redis         from 'redis';
+import path          from 'path';
 
-const db = level('./alphachat/db/dbsession', { keyEncoding: 'json', valueEncoding: 'json' })
+//require('dotenv').config({path: path.join(__dirname, './.env')});
+const root = process.cwd()
+require('dotenv').config({path: path.join(root, './.env')});
 
-/*
-require('leveldown').destroy('./alphachat/db/dbsession', function (err) {
-  if (err) {
-    console,log('err destroying database ' + err)
-  }
-  console.log('session database initialized!')
-})
+const port = process.env.REDIS_PORT;
+const host = process.env.REDIS_URI;
+const pswd = process.env.REDIS_PSWD;
 
-if (db.isOpen()) {
-  console.log("DB IS OPEN")
-}
-*/
+const db = redis.createClient(port, host, {no_ready_check: true});
+
+db.auth(pswd, function (err) {
+    if (err) throw err;
+});
+
+db.on('connect', function() {
+    console.log('Connected to Redis');
+});
+
 
 const session = {
   put: function(key, data, cb) {

@@ -4,6 +4,9 @@
 
 ## Overview
 
+set up redis, mongodb, neo4js configs in the .env
+note - will be emitting socetio -- used in the realtime terminal for watching texts
+
 
 ## Run the app
 
