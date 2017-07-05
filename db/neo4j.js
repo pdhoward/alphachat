@@ -18,12 +18,16 @@ module.exports = function () {
       'CREATE (a:Greeting) SET a.message = $message RETURN a.message + ", from node " + id(a)',
       {message: 'hello, world'}));
 
-    resultPromise.then(result => {
+    resultPromise
+        .then(result => {
             session.close();
             const singleRecord = result.records[0];
             const greeting = singleRecord.get(0);
             console.log(greeting);
             // on application exit:
             driver.close();
-  });
+        })
+        .catch(err => {
+          console.log(err)
+        });
 }
