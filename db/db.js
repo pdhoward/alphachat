@@ -8,7 +8,6 @@
 import redis         from 'redis';
 import path          from 'path';
 
-//require('dotenv').config({path: path.join(__dirname, './.env')});
 const root = process.cwd()
 require('dotenv').config({path: path.join(root, './.env')});
 
@@ -32,8 +31,8 @@ const session = {
     let options = {
       sync: true
     }
-    console.log('EXECUTING PUT DB')
-    db.put(key, data, options, function (err) {
+    console.log('EXECUTING SET DB')
+    db.set(key, data, function (err) {
         if (err) return cb(err)
         cb(null);
       })
@@ -55,6 +54,6 @@ const session = {
   }
 }
 
-export const putSession = session.put.bind(session)
+export const putSession = session.set.bind(session)
 export const getSession = session.get.bind(session)
 export const delSession = session.del.bind(session)

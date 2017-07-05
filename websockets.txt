@@ -1,0 +1,31 @@
+
+
+websockets -- communicating to all distributed devices
+
+https://medium.com/the-node-js-collection/why-the-hell-would-you-use-node-js-4b053b94ab8e
+
+can microservices be lsitening via websockets -- or proxy sockets?
+
+-------------
+
+https://www.npmjs.com/package/websocket
+
+https://community.risingstack.com/building-a-microservices-example-game-with-distributed-messaging/
+
+hot potato game
+https://github.com/cjus/hydra-hpp
+
+https://github.com/flywheelsports/hydra
+
+github repo and another tutorial
+
+https://community.risingstack.com/tutorial-building-expressjs-based-microservices-using-hydra/
+
+
+CHECKOUT THIS HYDRA CONSTRUCTOR
+
+https://github.com/flywheelsports/hydra/blob/master/index.js
+
+what is an ES6 proxy object
+https://github.com/flywheelsports/hydra/blob/master/lib/config.js
+
