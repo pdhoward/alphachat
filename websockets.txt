@@ -1,15 +1,15 @@
 
 
-websockets -- communicating to all distributed devices
+BUILD AN EVENT EMITTER TO TAKE CARE OF MAJOR EVENTS
 
-https://medium.com/the-node-js-collection/why-the-hell-would-you-use-node-js-4b053b94ab8e
+https://coligo.io/nodejs-event-emitter/
 
-can microservices be lsitening via websockets -- or proxy sockets?
+https://www.hacksparrow.com/node-js-eventemitter-tutorial.html
 
--------------
+................note chatservice constructor extending the EventEmitter
+https://github.com/an-sh/chat-service/blob/master/src/ChatService.js
 
-https://www.npmjs.com/package/websocket
-
+---------------------------------
 https://community.risingstack.com/building-a-microservices-example-game-with-distributed-messaging/
 
 hot potato game
@@ -29,3 +29,16 @@ https://github.com/flywheelsports/hydra/blob/master/index.js
 what is an ES6 proxy object
 https://github.com/flywheelsports/hydra/blob/master/lib/config.js
 
+SlackApp and Open Whish using API Connect
+https://github.com/IBM-Bluemix/openwhisk-slackapp
+
+Using openwhisk catalog and websockets -- example code
+https://devhub.io/zh/repos/openwhisk-openwhisk-catalog
+
+---------------
+
+serverless bots
+https://github.com/minibikini/serverless-telegram-bot
+
+chat-service
+https://www.npmjs.com/package/chat-service
