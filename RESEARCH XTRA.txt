@@ -1,0 +1,26 @@
+
+
+XTRA RESEARCH - JULY 
+
+redis chat example -- uses timezone - plus redis examples
+https://github.com/dwyl/hapi-socketio-redis-chat-example
+
+has extensive tests
+http://matthewdaly.co.uk/blog/2014/12/31/building-a-chat-server-with-node-dot-js-and-redis/
+
+
+webchat app with redis and sockets
+https://www.ibm.com/developerworks/library/wa-bluemix-html5chat/index.html
+
+use redis as session store and pub sub with express and chat -- CROSSES SERVERS
+https://github.com/rajaraodv/redispubsub
+
+authentication chat and socket jwt
+
+https://www.npmjs.com/package/socketio-jwt-auth  <<<
+
+https://m.dotdev.co/authenticate-laravel-5-user-account-in-nodejs-socket-io-using-json-web-tokens-jwt-f74009d612f8
+
+------------------------
+
+MORE RESEARCH NEEDED -- managing a dabase during a highly dynamic chat process -- many connections -- but may not need what was required by chaoticchatter

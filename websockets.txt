@@ -1,10 +1,42 @@
 
 
+ioredis --
+https://www.npmjs.com/package/ioredis
+
+connection limit redis labs -- advice on connection pooling
+https://support.redislabs.com/hc/en-us/articles/202595878-Hitting-the-connection-limit
+
+client kill (use if connection is inactive)
+https://redis.io/commands/client-kill
+
+
+redis mgmt console
+https://github.com/luin/medis
+
 BUILD AN EVENT EMITTER TO TAKE CARE OF MAJOR EVENTS
 
 https://coligo.io/nodejs-event-emitter/
 
-https://www.hacksparrow.com/node-js-eventemitter-tutorial.html
+creating a trigger on openwhisk
+https://www.raymondcamden.com/2017/02/02/working-with-openwhisk-triggers
+
+including rest api
+https://github.com/apache/incubator-openwhisk/blob/master/docs/rest_api.md
+
+openwhisk deploy -- action, trigger and rule
+
+https://medium.com/openwhisk/whisk-deploy-github-webhook-trigger-304a2f47ee52
+https://medium.com/openwhisk/whisk-deploy-action-trigger-and-rule-eed93becbc16
+
+https://console.bluemix.net/docs/openwhisk/openwhisk_rest_api.html
+webactions: qr code
+https://medium.com/openwhisk/web-actions-serverless-web-apps-with-openwhisk-f21db459f9ba
+https://medium.com/openwhisk/whats-new-web-actions-e0ffeef1bea3
+
+sending to a websocket from a web action
+https://github.com/apache/incubator-openwhisk-catalog/blob/master/packages/websocket/sendWebSocketMessageAction.js
+
+
 
 ................note chatservice constructor extending the EventEmitter
 https://github.com/an-sh/chat-service/blob/master/src/ChatService.js
@@ -36,9 +68,3 @@ Using openwhisk catalog and websockets -- example code
 https://devhub.io/zh/repos/openwhisk-openwhisk-catalog
 
 ---------------
-
-serverless bots
-https://github.com/minibikini/serverless-telegram-bot
-
-chat-service
-https://www.npmjs.com/package/chat-service
