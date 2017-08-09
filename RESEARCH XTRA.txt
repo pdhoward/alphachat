@@ -1,26 +1,27 @@
-
+﻿
 
 XTRA RESEARCH - JULY
-
---------------------
-intermediate tutorial
-https://ejosh.co/de/2015/01/node-js-socket-io-and-redis-intermediate-tutorial-server-side/
-
-
-------------------
-
-socketioemitter -- shows ioredis being used
-https://github.com/socketio/socket.io-emitter
 
 
 --------------------
 
 see microservice/zeit - create microservice in 5 minutes
 
+we join many channels together for an integrated view of the conversational commerce
+
+We manage persistent, industry compliant session, protecting and preserving PII, while mediating discussions across a diverse workforce and over many dialogue threads
+
+Our commercial grade networks and cloud services watch activity from across a vast array of messaging platforms that may be driving sales, supply chain, support and other critical contact threads to your business and brand
 
 
 ------------------------
+Businesschat has been envisioned as an attempt to unify communications, enrich them, and gather a network of smart systems. We hope that from this community will sprout the omnipotent / omniscient / omnipresent AI of tomorrow.
+We help developers to focus on solving user problems by replacing multiple documentations to implement by only one powered by a community of passionates.
 
+But note that conversational ui has been a disappointment among businesses exploriing AI. There is nothing more fundmental than listening to the customer -- and responding with poise, intent and precision (answer the mail)
+
+
+businesschat is a open source project providing a suite of Activity Streams 2 libraries for unified communications among a vast number of communication platforms. More than it deliver integrated analysis across dialogue threads and customer communications 
 
 The whole purpose of this library is it abstracts away the differences in various environments and provides a minimal API that lets you manage the history stack, navigate, confirm navigation, and persist state between sessions.
 
@@ -35,6 +36,16 @@ Imagine a world where your web applications are independent and not on rental. B
 Sockethub aims to solve one piece of that puzzle, by implementing a polyglot server that can speak all of the various protocols and APIs of the web today. Exposing a single abstracted interface to application developers, this open platform can be run on any server, and provides social and other interactive messaging functionality to the application. Adding one more building block to the goal of server-independent, server-side functionality, Sockethub can help to free our web applications from vendor lock-in.
 
 
+-------------
+start with observable docs rxjs via nom
+
+---------
+
+https://github.com/broidHQ/XXplatforms
+
+in addition to broid check out
+https://github.com/smallwins/slack
+
 
 ---------------
 
@@ -43,6 +54,11 @@ https://github.com/dwyl/hapi-socketio-redis-chat-example
 
 has extensive tests
 http://matthewdaly.co.uk/blog/2014/12/31/building-a-chat-server-with-node-dot-js-and-redis/
+
+redis GUI - inspect redis lab
+https://redisdesktop.com/
+
+http://getmedis.com/    <<<< check it out -- part of ioredis
 
 
 webchat app with redis and sockets

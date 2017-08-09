@@ -10,8 +10,5 @@ https://medium.com/the-node-js-collection/bots-are-banging-getting-started-with-
 
 https://tutorials.botsfloor.com/opening-up-a-dialog-with-my-chatbot-4b653fe7ffcc
 
-conntinuation local storage
-https://www.npmjs.com/package/continuation-local-storage
-
 http://lokijs.org/#/
 

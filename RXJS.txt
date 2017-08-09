@@ -1,0 +1,16 @@
+
+
+examples -- using observables with map etc
+
+https://www.sitepoint.com/rxjs-functions-with-examples/
+
+github and docs
+
+https://github.com/Reactive-Extensions/RxJS/tree/master/doc
+
+converting sockets into an array of observables
+https://stackoverflow.com/questions/32809908/rxjs-converting-node-js-sockets-into-observables-and-merge-them-into-one-stream
+
+
+chatr
+http://jamesdigioia.com/chatr-exploring-react-rxjs-with-a-chat-application/
